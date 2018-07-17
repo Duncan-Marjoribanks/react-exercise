@@ -7,8 +7,15 @@ class MovieBox extends React.Component {
     super(props);
     this.state = {
       data: [{
-        Title: "Star-Wars"
-        
+        title: "Star Wars"
+      },{
+        title: "The Big Lebowski"
+      },{
+        title: "Different for girls"
+      },{
+        title: "Good Morning Vietnam"
+      },{
+        title: "Hedwig and the Angry Inch"
       }]
     };
   };
